@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Boutique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #fad2d2;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ba4a4a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #6f0d0d;
+        }
+        .image-container {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-family:bold;
+        }
+        .dress-image {
+            width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .dress-image:hover {
+            transform: scale(1.1);
+        }
+        .caption {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YOUR STYLE</h1>
+        <p>Discover the latest fashion trends and timeless styles at our boutique.</p>
+        <a href="#" class="btn">Shop Now</a>
+        
+        <div class="image-container">
+            <figure>
+                <img src="C:\Users\suriy\OneDrive\Documents\OCTANET\dress1.webp" alt="Dress 1" class="dress-image">
+                <figcaption class="caption">ETHNIC WEAR</figcaption>
+            </figure>
+            <figure>
+                <img src="C:\Users\suriy\OneDrive\Documents\OCTANET\dress2.jpg" alt="Dress 2" class="dress-image">
+                <figcaption class="caption">SAREE</figcaption>
+            </figure>
+            <figure>
+                <img src="C:\Users\suriy\OneDrive\Documents\dress3.jpg" alt="Dress 3" class="dress-image">
+                <figcaption class="caption">WESTERN</figcaption>
+            </figure>
+            <figure>
+                <img src="C:\Users\suriy\OneDrive\Documents\dress4.webp" alt="Dress 4" class="dress-image">
+                <figcaption class="caption">PALAZO SET</figcaption>
+            </figure>
+            <figure>
+                <img src="C:\Users\suriy\OneDrive\Documents\dress5.avif" alt="Dress 5" class="dress-image">
+                <figcaption class="caption">ANARKALI</figcaption>
+            </figure>
+            <figure>
+                <img src="C:\Users\suriy\OneDrive\Documents\OCTANET\dress6.jpeg" alt="Dress 6" class="dress-image">
+                <figcaption class="caption">SKIRT</figcaption>
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
